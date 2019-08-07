@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="explore"></ion-back-button>
+        </ion-buttons>
+        
+    <ion-title>trips</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p class = "noTrips">
+    You have no upcoming trips.
+  </p>
+  <ion-button (click)="navToExplore()">Explore Airbnb</ion-button>
+  <p class = "currentTrips">
+      You are currently in Cape Town
+    </p>
+    <ion-item href="#"> Explore rental for Cape Town</ion-item>
+</ion-content>
